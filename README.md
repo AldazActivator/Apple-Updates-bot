@@ -4,19 +4,19 @@ Este bot de Telegram monitorea automáticamente **actualizaciones de seguridad y
 
 ## 🚀 Características
 
-- ✅ Comando `/start` para suscribirse desde Telegram
-- 🔐 Monitorea el sitio oficial de Apple: [support.apple.com/102774](https://support.apple.com/en-us/102774)
-- 📅 Detecta nuevos reconocimientos de seguridad publicados (acknowledgements)
-- 📦 Detecta nuevas versiones de:
+- Comando `/start` para suscribirse desde Telegram
+- Monitorea el sitio oficial de Apple: [support.apple.com/102774](https://support.apple.com/en-us/102774)
+- Detecta nuevos reconocimientos de seguridad publicados (acknowledgements)
+- Detecta nuevas versiones de:
   - iOS
   - iPadOS
   - macOS
   - bridgeOS
-- 📩 Notificaciones automáticas para todos los usuarios suscritos
-- 💾 Almacena usuarios y últimos registros de forma local (`.json`)
-- ☁️ Se puede ejecutar como webhook o mediante consulta GET (`?status=check`)
+- Notificaciones automáticas para todos los usuarios suscritos
+- Almacena usuarios y últimos registros de forma local (`.json`)
+- Se puede ejecutar como webhook o mediante consulta GET (`?status=check`)
 
-## 🧠 ¿Cómo funciona?
+##  ¿Cómo funciona?
 
 El script realiza dos tareas principales:
 
@@ -31,7 +31,7 @@ El script realiza dos tareas principales:
 - Si detecta una nueva versión, busca detalles de seguridad en la página oficial de Apple.
 - Informa automáticamente a todos los usuarios suscritos.
 
-## ⚙️ Instalación
+## Instalación
 
 1. Clona el repositorio:
    ```bash
@@ -79,16 +79,15 @@ El script realiza dos tareas principales:
 | `latest_firmware.json` | Últimas versiones conocidas de firmware |
 | `telegram_log.txt` | Registro de mensajes enviados y errores |
 
-## 🛡️ Seguridad y Tolerancia a Errores
+## Tolerancia a Errores
 
 - Manejo de errores mediante excepciones y logging.
 - Compatible con UTF-8 para evitar problemas de codificación.
 - Corte de mensajes largos para evitar errores de Telegram (> 4096 caracteres).
 
-## 👨‍💻 Autor
+## Dev
 
 Desarrollado por [Gerson Aldaz](https://github.com/AldazActivator)  
-Bot Token y estructura lista para personalizar según tu proyecto.
 
 ## 📝 Licencia
 
